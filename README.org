@@ -43,9 +43,9 @@ You only need two zip files instead of git or network.
 
 Here are the *exact steps*,
 - Remove =~/.emacs=.
-- Download [[https://github.com/redguardtoo/emacs.d/archive/stable.zip]]
+- Download [[https://github.com/dragonflygb/emacs.d/archive/release.zip]]
 - Extract its content into empty directory =~/.emacs.d=
-- Download [[https://github.com/redguardtoo/myelpa/archive/stable.zip]]
+- Download [[https://github.com/dragonflygb/myelpa/archive/release.zip]]
 - Extract the zip somewhere, say =~/projs/myelpa=
 - Make sure a file named =archive-contents= exists in =~/projs/myelpa=
 - Add =(setq package-archives '(("myelpa" . "~/projs/myelpa/")))= into =~/.emacs.d/lisp/init-elpa.el= 
@@ -378,7 +378,7 @@ Emacs is *portable* on any platform. So you can install Emacs even when you are 
 * Report bug
 Check [[http://www.emacswiki.org/emacs/][EmacsWiki]] and my FAQ at first, please.
 
-File bug report at [[https://github.com/redguardtoo/emacs.d]]. Don't email me directly!
+File bug report at [[https://github.com/dragonflygb/emacs.d]]. Don't email me directly!
 
 Please contact the original developer if you find any bug from third party packages.
 
